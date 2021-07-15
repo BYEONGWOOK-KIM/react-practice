@@ -1,4 +1,4 @@
-function List ({list, setList}) {
+function List ({ list }) {
 
     function deleteList (e) {
        console.log(e.target)

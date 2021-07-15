@@ -18,14 +18,14 @@ function App() {
   }
 
   return <>
-  <div>
-      <h1 id="title">My Todo List</h1>
-  </div>
-  <div>
-      <input onChange={addTodo} value={todo}></input>
-      <button onClick={addList}>할일 추가</button>
-  </div>
-  <List list={list} setList={setList} />
+    <div>
+        <h1 id="title">My Todo List</h1>
+    </div>
+    <div>
+        <input onChange={addTodo} value={todo}></input>
+        <button onClick={addList}>할일 추가</button>
+    </div>
+    <List list={list} />
   </>
 }
 
